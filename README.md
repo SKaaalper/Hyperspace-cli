@@ -99,5 +99,15 @@ aios-cli hive whoami
 - Shows your node's public and private key details.
 
 
+### Delete Node:
+```
+aios-cli stop && rm -rf ~/.aios /usr/local/bin/aios-cli /root/.bashrc
+```
+- Delete Screen:
+```
+screen -X -S hyperspace quit
+```
+
+
 ### Official Documentation
 - [HyperSpace AIOS CLI Guide](https://github.com/hyperspaceai/aios-cli?tab=readme-ov-file)
