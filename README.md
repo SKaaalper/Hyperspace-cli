@@ -28,6 +28,9 @@ nano my.pem
 ```
 - Follow the official guide to obtain your private key.
 - Save and exit nano by pressing `Ctrl + X`, then `Y` to confirm.
+
+![image](https://github.com/user-attachments/assets/218e2abb-917a-4d6c-a72c-832e0a18cfff)
+  
 ```sh
 chmod 600 my.pem
 ```
@@ -83,6 +86,11 @@ aios-cli hive select-tier 5
 aios-cli hive points
 ```
 - Displays the accumulated points.
+
+- Also, you can check your points on the website.
+  
+![image](https://github.com/user-attachments/assets/4bcd39d1-087e-46de-b185-b9b37f54a2d7)
+
 
 ### 🔟 View Your Public and Private Keys
 ```sh
